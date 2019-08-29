@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<header>
+  <title></title>
+</header>
+
+<body>
+  <h1 id="title">Apply for a date!</h1>
+  <p id="description">Enter your information, and if you're lucky, you get a date.</p>
+  <div id="container">
+  <form id="survey-form">
+    <label for="name" id="name-label">name:</label>
+    <input type="text" id="name" placeholder="your nombre" required minlength="4" maxlength="40">
+    <br>
+    <label for="email" id="email-label">email:</label>
+    <input type="email" id="email" placeholder="yes, the email address" required minlength="4" maxlength="40">
+    <br>
+    <label for="number" id="number-label">number</label>
+    <input type="number" id="number" placeholder="digits" min="1" max="100">
+    <br>
+    <select id="dropdown">
+      <option value="bald">Bald</option>
+      <option value="redhead">Redhead</option>
+      <option value="brunette">Brunette</option>
+      <option value="blonde">Blonde</option>
+    </select>
+    <label for="dropdown" id="dropdown-label">What color is your hair?</label>
+    <br>
+    <p id="profession">Are you any of the following?</p>
+    <input type="radio" id="radio" name="yes" value="yes">
+    <label for="yes" id="radio-label">Single?</label>
+    <br>
+    <input type="radio" id="radio" name="yes" value="yes">
+    <label for="yes" id="radio-label">Lonely?</label>
+    <br>
+    <input type="checkbox" id="hobby" name="quality" value="dancer">
+    <label for="quality">A Dancer</label>
+    <br>
+    <input type="checkbox" id="hobby" name="quality" value="model">
+    <label for="quality">A Model</label>
+    <br>
+    <input type="checkbox" id="hobby" name="quality" value="yogi">
+    <label for="quality">A Yogi</label>
+    <br>
+    <textarea id="tell-me" name="tell-me" rows="5" cols="30">Tell me about your dreams</textarea>
+    <br>
+    <input type="submit" id="submit" value="Send">
+  </form>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>

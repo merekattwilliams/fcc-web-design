@@ -1,0 +1,58 @@
+body {
+  background-color: #000000;
+  font-family: 'Tajawal', sans-serif;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#to-my {
+  text-align: center;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+.project-tile {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+    
+  
+}
+
+#projects a {
+  border: 2px solid;
+  padding: 200px;
+  text-align: center;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  
+}
+
+a {
+  color: #FFFFFF;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+#profile{
+  
+  text-align: center;
+  color: #FFFFFF;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
